@@ -1,0 +1,18 @@
+{
+    "name": "mi-aplicacion",
+    "version": "1.0.0",
+    "description": "Proyecto con json-server y frontend básico",
+    "main": "app.js",
+    "scripts": {
+      "start": "json-server --watch db.json --port 5000", 
+      "dev": "npm run start", 
+      "build": "echo 'No build step for this project'",
+      "test": "echo 'No tests specified'"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "json-server": "^0.17.0"
+    }
+  }
+  

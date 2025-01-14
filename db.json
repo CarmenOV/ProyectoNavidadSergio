@@ -1,0 +1,25 @@
+{
+  "productos": [
+  { "id": 1, "nombre": "Camiseta futbol", "imagen": "img/camiuno.webp", "precio": 30.00, "categoria": "Categoria 1" ,"descripcion": "Camiseta de fútbol ideal para jugar en equipo."},
+  { "id": 2, "nombre": "Camiseta futbol", "imagen": "img/camicinco.jpg", "precio": 60.00, "categoria": "Categoria 1","descripcion": "Camiseta de fútbol ideal para jugar en equipo." },
+  { "id": 3, "nombre": "Camiseta futbol", "imagen": "img/camicuatro.jpg", "precio": 40.00, "categoria": "Categoria 2","descripcion": "Camiseta de fútbol ideal para jugar en equipo." },
+  { "id": 4, "nombre": "Camiseta futbol", "imagen": "img/camidos.jpg", "precio": 120.00, "categoria": "Categoria 2" ,"descripcion": "Camiseta de fútbol ideal para jugar en equipo."},
+  { "id": 5, "nombre": "Camiseta futbol", "imagen": "img/camitres.jpg", "precio": 285.00, "categoria": "Categoria 2" ,"descripcion": "Camiseta de fútbol ideal para jugar en equipo."},
+  { "id": 6, "nombre": "Camiseta futbol", "imagen": "img/ochocami.jpg", "precio": 65.00, "categoria": "Categoria 2","descripcion": "Camiseta de fútbol ideal para jugar en equipo." },
+  { "id": 7, "nombre": "Camiseta futbol", "imagen": "img/sextacami.jpg", "precio": 45.00, "categoria": "Categoria 2" ,"descripcion": "Camiseta de fútbol ideal para jugar en equipo."},
+  { "id": 8, "nombre": "Camiseta futbol", "imagen": "img/sietecami.webp", "precio": 35.00, "categoria": "Categoria 2","descripcion": "Camiseta de fútbol ideal para jugar en equipo."}
+
+
+
+  
+],
+    "categorias": [
+      { "id": 1, "nombre": "Categoria 1" },
+      { "id": 2, "nombre": "Categoria 2" }
+    ],
+    "usuarios": [
+      { "id": 1, "username": "usuario", "password": "password" }
+    ],
+    "carrito": []
+  }
+  

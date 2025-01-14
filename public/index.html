@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a la Tienda</h1>
+
+    <a href="carrito.html" id="carrito-link">
+      <button id="verCarrito">Ver Carrito (<span id="carrito-count">0</span>)</button>
+    </a>
+  </header>
+
+  <main>
+    <section id="categorias">
+      <h2>Categorías</h2>
+      <select id="filtro-categoria">
+        <option value="0">Todas las categorías</option>
+        <!-- Aquí se cargarán las categorías -->
+        <option value="1">Categoría 1</option>
+        <option value="2">Categoría 2</option>
+      </select>
+    </section><br><br>
+    <section id="ordenar">
+      <h2>Ordenar por precio</h2>
+      <select id="ordenar-precio">
+        <option value="asc">Ascendente</option>
+        <option value="desc">Descendente</option>
+      </select>
+    </section><br><br>
+
+    <section id="productos">
+      <h2>Productos</h2>
+      <div id="producto-lista" class="productos-lista"></div><br>
+      <button id="cargar-mas">Cargar más productos</button>
+    </section>
+
+  </main>
+
+ <!-- Modal de Más Información -->
+<div id="modal-info" class="modal">
+  <div class="modal-content">
+    <span id="close-modal" class="close">&times;</span>
+    <h2 id="producto-nombre"></h2>
+    <img id="producto-imagen" src="" alt="" />
+    <p id="producto-descripcion"></p>
+    <p><strong>Precio:</strong> $<span id="producto-precio"></span></p>
+  </div>
+</div>
+
+
+  <script src="../src/app.js"></script>
+</body>
+</html>

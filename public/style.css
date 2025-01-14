@@ -1,0 +1,123 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.productos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre los productos */
+  justify-content: space-around; /* Alinea los productos centrados */
+}
+
+.producto {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 23%; /* Ajustamos el ancho de cada producto */
+  text-align: center;
+  box-sizing: border-box; /* Asegura que el padding no sume al tamaño total */
+}
+
+#carrito {
+  margin-top: 50px;
+}
+
+#carrito-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Ajustar imágenes en productos */
+img {
+  width: 100%;    /* La imagen ocupará todo el ancho del contenedor del producto */
+  height: auto;    /* Ajusta la altura proporcionalmente */
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#carrito-items button {
+  margin: 0 5px;
+}
+/* Estilos para la ventana emergente */
+.modal {
+  display: none; /* Inicialmente oculta */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con algo de transparencia */
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.modal img {
+  max-width: 200px; /* Tamaño de la imagen en la ventana emergente */
+  height: auto;
+}
+
+.modal p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: #000;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
